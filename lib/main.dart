@@ -9,11 +9,19 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
+    return SafeArea(
+      child: MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.teal,
+          body: Container(
+            color: Colors.white,
+            child: Text('hello'),
+          ),
+        ),
       ),
     );
   }
 }
+
+
+
