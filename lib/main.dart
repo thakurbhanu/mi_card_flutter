@@ -45,64 +45,54 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
-                color: Colors.white,
+
+
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
-                padding: EdgeInsets.all(5.0),
-                
-                child: Row(
-                  children: <Widget>[
-
-                    Icon(
-                      Icons.phone,
-                      size: 35.0,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                        '+91 8988311203',
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 30.0,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(
-                    vertical: 10.0, horizontal: 20.0
-                ),
-                padding: EdgeInsets.all(5.0),
 
 
-                child: Row(
-                  children: <Widget>[
-
-                    Icon(
-                        Icons.email,
-                      size: 35.0,
-                      color: Colors.teal,
-                    ),
-
-                    SizedBox(
-                      width: 10.0,
-                    ),
-
-                    Text(
-                      'madejustforwork@gmail.com',
+                child: ListTile(
+                  leading:
+                  Icon(
+                    Icons.phone,
+                    size: 26.0,
+                    color: Colors.teal,
+                  ),
+                  title:
+                  Text(
+                    '+91 8988311203',
                     style: TextStyle(
                       color: Colors.teal,
                       fontFamily: 'SourceSansPro',
-                      fontSize: 25.0,
+                      fontSize: 18.0,
                     ),
-                    ),
-                  ],
+                  ),
                 ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 20.0
+                ),
+
+                child: ListTile(
+                  leading:
+                  Icon(
+                    Icons.email,
+                    size: 25.0,
+                    color: Colors.teal,
+                  ),
+                  title:
+                  Text(
+                    'madejustforwork@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 21.0,
+                    ),
+                  ),
+                ),
+
+
               ),
             ],
           ),
@@ -111,4 +101,14 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+//
+//
+//child: Row(
+//children: <Widget>[
+//
+//SizedBox(
+//width: 10.0,
+//),
+//
+//],
+//),
