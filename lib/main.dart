@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,16 +16,26 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
 
         body: SafeArea(
-          child: Container(
-
-            color: Colors.white,
-            child: Text('hello'),
-
-            height: 100.0,
-            width: 100.0,
+          child: Column(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundColor: Colors.red,
+                backgroundImage: AssetImage('images/vipul.png'),
+              ),
+              Text(
+                  'Vipul',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
           ),
         ),
       ),
     );
   }
 }
+
