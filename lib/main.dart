@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
               Container(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
-                padding: EdgeInsets.all(10.0),
+                padding: EdgeInsets.all(5.0),
                 
                 child: Row(
                   children: <Widget>[
@@ -73,29 +73,33 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
-                padding: EdgeInsets.all(10.0),
-                
+                margin: EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 20.0
+                ),
+                padding: EdgeInsets.all(5.0),
+
+
                 child: Row(
                   children: <Widget>[
 
                     Icon(
-                      Icons.phone,
+                        Icons.email,
                       size: 35.0,
                       color: Colors.teal,
                     ),
+
                     SizedBox(
                       width: 10.0,
                     ),
+
                     Text(
-                        '+91 8988311203',
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 30.0,
-                      ),
+                      'madejustforwork@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 25.0,
+                    ),
                     ),
                   ],
                 ),
