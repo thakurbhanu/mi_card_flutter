@@ -42,7 +42,8 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'SourceSansPro',
-                  letterSpacing: 2.
+                  letterSpacing: 2.5,
+                ),
               ),
             ],
           ),
