@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
 
       home: Scaffold(
         backgroundColor: Colors.teal,
-
+        
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -122,3 +122,4 @@ class MyApp extends StatelessWidget {
 //
 //],
 //),
+
