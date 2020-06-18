@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/vipul.png'),
               ),
               Text(
-                  'Vipul',
+                  'vipul',
 
                 style: TextStyle(
                   fontSize: 40.0,
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Text(
-                  'Flutter Developer',
+                  'Flutter dev',
 
                 style: TextStyle(
                   fontSize: 30.0,
